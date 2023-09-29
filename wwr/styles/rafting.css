@@ -1,0 +1,99 @@
+@import url(https://fonts.google.com/specimen/Heebo);
+
+:root {
+    --primary-color: #545E75;
+    --secondary-color: #63ADF2;
+    --accent1-color: #304D6D;
+    --accent2-color: #82A0BC;
+
+    --heading-font: "Heebo", "Helvetica", sans-serif;
+    --paragraph-font: "Heebo", "Helvetica", sans-serif;
+
+    --nav-background-color: #304D6D;
+    --nav-link-color: #63ADF2;
+    --nav-hover-link-color: #304D6D;
+    --nav-hover-background-color: #63ADF2;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent2-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero h1 {
+    position:absolute;
+    top: 10px;
+    left: 320px;
+    background-color: rgba(48,77,109,.75);
+    color: #63ADF2;
+    padding: 5px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.critical {
+    position:absolute;
+    background-color: rgba(48,77,109,.75);
+    top: 175px;
+    border: 3px black;
+    padding: 30px;
+    margin: 30px;
+}
+
+.critical p {
+    width: 69%;
+    color: #63ADF2;
+}
+
+#happy {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+
