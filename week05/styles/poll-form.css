@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Heebo";
+    font-size: 1.2em;
+}
+
+header {
+    background-color: slategray;
+    color: aliceblue;
+    padding: 1em;
+    text-align: center;
+}
+
+.frim {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 550px;
+    background-color: lightgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 2px solid darkslateblue;
+    border-radius: 0.5rem;
+    display: grid;
+    align-self: center;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    padding: 1rem;
+    border: 2px solid darkslateblue;
+    margin: 0.5em;
+}
+
+legend {
+    text-align: left;
+    font-size: 1.3em;
+    color: darkslateblue;
+    padding: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    border-top: 2px solid darkslateblue;
+}
+
+label {
+    text-align: right;
+    padding-right: 1em;
+}
+
+input, select, textarea {
+    padding: 0.25rem;
+    font-size: 1em;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1em;
+    width: 7em;
+    height: 2em;
+    background-color: darkslateblue;
+    color: lightgray;
+    border-radius: 0.5rem;
+    border: 1px solid darkslateblue;
+    font-size: 1em;
+    justify-self: center;
+}
+
+button:hover {
+    background-color: orange;
+    border: 1px solid orange;
+    color: darkslateblue;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.2em;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+}
