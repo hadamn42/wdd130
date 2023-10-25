@@ -283,7 +283,7 @@ article {
 
 .tittle {
     z-index: 1;
-    align-self: top;
+    align-self:flex-start;
     justify-self: center;
     padding-top: 1em;
 }
@@ -351,7 +351,7 @@ article {
     /* margin: 5em; */
     width: 100%;
     justify-self: center;
-    align-self: top;
+    align-self:flex-start;
     border: 1px solid var(--nav-hover-background-color);
     border-radius: 0.95em;
     color: var(--nav-link-color);
